@@ -8,7 +8,6 @@ class Browser
       helper_method :browser
     end
 
-    private
     def browser
       @browser ||= Browser.new(
         accept_language: request.headers["Accept-Language"],
